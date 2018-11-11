@@ -12,10 +12,7 @@ public class TestClient {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
 
         TestBean bean = (TestBean) context.getBean("testBean");
-
-//        BeanFactory beanFactory = new XmlBeanFactory(new ClassPathResource("applicationContext.xml"));
-//        TestBean bean = (TestBean) beanFactory.getBean("testBean");
-        bean.test("jieh");
+        bean.test("Hello");
 
     }
 

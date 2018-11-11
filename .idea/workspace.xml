@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa7e5f44-7c15-452e-bb88-31c64fe14401" name="Default Changelist" comment="" />
+    <list default="true" id="aa7e5f44-7c15-452e-bb88-31c64fe14401" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/activemq/SendActivemqMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/activemq/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/enum_/EnumDemoOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/enum_/EnumDemoThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/enum_/EnumDemoTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/enum_/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/io/ByteStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/io/IoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/regex/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiehang/AspectJTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/AspectJTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiehang/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/TestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiehang/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiehang/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,45 +41,59 @@
     <session id="-725129137">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.56" value="2" />
           <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="6932" />
-          <entry key="xml" value="322" />
+          <entry key="java" value="12339" />
+          <entry key="xml" value="346" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6932" />
+          <entry key="JAVA" value="12339" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="XML" value="322" />
+          <entry key="XML" value="346" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AnnotationAwareAspectJAutoProxyCreator" value="1" />
           <entry key="MethodInterceptor" value="1" />
-          <entry key="class" value="2" />
-          <entry key="java" value="216" />
-          <entry key="xml" value="6" />
+          <entry key="PreparedStatementCreator" value="2" />
+          <entry key="class" value="9" />
+          <entry key="java" value="373" />
+          <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="216" />
-          <entry key="UML" value="2" />
-          <entry key="XML" value="6" />
+          <entry key="CLASS" value="9" />
+          <entry key="JAVA" value="373" />
+          <entry key="UML" value="4" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -73,44 +103,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MethodInvocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/BeforeAdvisor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MyLogAspect.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/activemq/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="144">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/test/TestMyAspect.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/activemq/SendActivemqMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="359">
+              <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQQueueSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -128,15 +146,21 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>for (int i = 0; i &lt; interfaces.length; i++) {</find>
+      <find>testObjectInputStream</find>
+      <find>jms</find>
+      <find>active</find>
+      <find>grou</find>
+      <find>JMSXGroupID</find>
+      <find>this.info.setSelector</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/TestBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/AspectJTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/TestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/proxy/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/proxy/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/proxy/MyInvocationHandler.java" />
@@ -145,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/proxy/TestProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/regex/RegexClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/proxy/TsmGuidDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/proxy/TsmCglib.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/proxy/Clinet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/proxy/Client.java" />
@@ -154,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/MyAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/Orderable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/AbstractAdvisor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/MyAspectBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/Proceed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/MethodInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/Advisor.java" />
@@ -162,9 +184,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/AfterAdvisor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/MethodInterceptorImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/aop/test/TestMyAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/MethodInvocation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/MyLogAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/solution/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/aop/MyAspectBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/TestBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/AspectJTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/regex/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/io/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/enum_/EnumDemoThree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/enum_/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/enum_/EnumDemoTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/enum_/EnumDemoOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/io/ByteStreamTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/io/IoClientTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/activemq/SendActivemqMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiehang/activemq/Test.java" />
       </list>
     </option>
   </component>
@@ -209,17 +247,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="33" />
-    <option name="y" value="65" />
+    <option name="x" value="47" />
+    <option name="y" value="91" />
     <option name="width" value="1340" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,47 +292,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jiehang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-aop-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-aop-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jiehang" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-aop-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-aop-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jiehang" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-aop-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-aop-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="activemq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="MethodInvocation&#9;PSI&#9;JAVA://org.aopalliance.intercept.MethodInvocation&#10;Advisor &#9;PSI&#9;JAVA://org.springframework.aop.Advisor&#10;Advisor&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java&#10;MethodInterceptor &#9;PSI&#9;JAVA://org.aopalliance.intercept.MethodInterceptor&#10;matcher&#9;PSI&#9;JAVA://java.util.regex.Matcher&#10;jdk&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java&#10;abstractAutoProxy&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;annotation&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;docu&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java&#10;abstrac&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java&#10;beanpos&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanPostProcessor&#10;annotationAsp&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;xmlBEanFact&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanFactory&#10;BeanDefinitionParserDelegate&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionParserDelegate&#10;AbstractBeanDefinitionReader&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractBeanDefinitionReader&#10;BeanDefinition&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.BeanDefinitionDefaults" />
+    <property name="SearchEverywhereHistoryKey" value="Queue.java&#9;FILE&#9;jar://C:/soft/mvnrepository/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/broker/region/Queue.java&#10;ActiveMqQueue.java&#9;FILE&#9;jar://C:/soft/mvnrepository/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/command/ActiveMQQueue.java&#10;FileOutputStream.java&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/FileOutputStream.java&#10;jdbcTemplate&#9;PSI&#9;JAVA://org.springframework.jdbc.core.JdbcTemplate&#10;ExecutorService&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;auto&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java&#10;inputStreamReader&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/InputStreamReader.java&#10;fileInputStream&#9;PSI&#9;JAVA://java.io.FileInputStream&#10;inputStream&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/InputStream.java&#10;beanFactoryTransactionAttribu&#9;PSI&#9;JAVA://org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor&#10;TxName&#9;PSI&#9;JAVA://org.springframework.transaction.config.TxNamespaceHandler&#10;annotationAwareAspectJAuto&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;jdbcTempla&#9;PSI&#9;JAVA://org.springframework.jdbc.core.JdbcTemplate&#10;MethodInvocation&#9;PSI&#9;JAVA://org.aopalliance.intercept.MethodInvocation&#10;Advisor &#9;PSI&#9;JAVA://org.springframework.aop.Advisor&#10;Advisor&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java&#10;MethodInterceptor &#9;PSI&#9;JAVA://org.aopalliance.intercept.MethodInterceptor&#10;matcher&#9;PSI&#9;JAVA://java.util.regex.Matcher&#10;jdk&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java&#10;abstractAutoProxy&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;annotation&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;docu&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java&#10;abstrac&#9;FILE&#9;jar://C:/soft/mvnrepository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java&#10;beanpos&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanPostProcessor&#10;annotationAsp&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;xmlBEanFact&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanFactory&#10;BeanDefinitionParserDelegate&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionParserDelegate&#10;AbstractBeanDefinitionReader&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractBeanDefinitionReader&#10;BeanDefinition&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.BeanDefinitionDefaults" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536681392700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541920951686" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jieh-love" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -311,13 +327,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestMyAspect (1)">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiehang.proxy.cglib.Client" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="ByteStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiehang.io.ByteStreamTest" />
       <module name="spring-aop-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiehang.proxy.cglib.*" />
+          <option name="PATTERN" value="com.jiehang.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiehang.regex.RegexClient" />
+    <configuration name="EnumDemoOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiehang.enum_.EnumDemoOne" />
       <module name="spring-aop-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiehang.regex.*" />
+          <option name="PATTERN" value="com.jiehang.enum_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,12 +354,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyAspect (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiehang.aop.test.TestMyAspect" />
+    <configuration name="IoClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiehang.io.IoClientTest" />
       <module name="spring-aop-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiehang.aop.test.*" />
+          <option name="PATTERN" value="com.jiehang.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,12 +367,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyAspect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiehang.aop.aop.test.TestMyAspect" />
+    <configuration name="SendActivemqMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiehang.activemq.SendActivemqMessage" />
       <module name="spring-aop-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiehang.aop.aop.test.*" />
+          <option name="PATTERN" value="com.jiehang.activemq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,12 +380,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiehang.proxy.TestProxy" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiehang.activemq.Test" />
       <module name="spring-aop-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiehang.proxy.cglib.*" />
+          <option name="PATTERN" value="com.jiehang.activemq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,19 +394,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestProxy" />
-      <item itemvalue="Application.RegexClient" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.TestMyAspect" />
-      <item itemvalue="Application.TestMyAspect (1)" />
+      <item itemvalue="Application.EnumDemoOne" />
+      <item itemvalue="Application.ByteStreamTest" />
+      <item itemvalue="Application.IoClientTest" />
+      <item itemvalue="Application.SendActivemqMessage" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMyAspect (1)" />
-        <item itemvalue="Application.TestMyAspect" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.RegexClient" />
-        <item itemvalue="Application.TestProxy" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.SendActivemqMessage" />
+        <item itemvalue="Application.IoClientTest" />
+        <item itemvalue="Application.ByteStreamTest" />
+        <item itemvalue="Application.EnumDemoOne" />
       </list>
     </recent_temporary>
   </component>
@@ -409,12 +425,34 @@
       <workItem from="1536333238207" duration="3869000" />
       <workItem from="1536368036665" duration="51471000" />
       <workItem from="1536583601740" duration="5101000" />
-      <workItem from="1536666603519" duration="9585000" />
+      <workItem from="1536666603519" duration="9803000" />
+      <workItem from="1536758477399" duration="4315000" />
+      <workItem from="1536846235620" duration="6448000" />
+      <workItem from="1536974303082" duration="8670000" />
+      <workItem from="1537061309075" duration="8535000" />
+      <workItem from="1537182488735" duration="12192000" />
+      <workItem from="1537538880987" duration="836000" />
+      <workItem from="1537545570617" duration="27000" />
+      <workItem from="1537546485492" duration="2333000" />
+      <workItem from="1537581105539" duration="10272000" />
+      <workItem from="1537624503810" duration="3419000" />
+      <workItem from="1537785023777" duration="3919000" />
+      <workItem from="1537965562515" duration="3831000" />
+      <workItem from="1538145772486" duration="5131000" />
+      <workItem from="1539006138086" duration="525000" />
+      <workItem from="1539006978422" duration="18000" />
+      <workItem from="1539007991137" duration="803000" />
+      <workItem from="1540479873885" duration="3817000" />
+      <workItem from="1540730700540" duration="754000" />
+      <workItem from="1540911028564" duration="2149000" />
+      <workItem from="1540913859256" duration="10277000" />
+      <workItem from="1541600036660" duration="2256000" />
+      <workItem from="1541919945083" duration="998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70604000" />
+    <option name="totallyTimeSpent" value="162347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,28 +464,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="54" y="-8" width="1314" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6177686" visible="true" weight="0.27203646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6177686" visible="true" weight="0.23365231" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" weight="0.32978722" />
+      <window_info id="Favorites" order="5" sideWeight="0.5681445" side_tool="true" weight="0.35182372" />
+      <window_info id="Structure" order="6" sideWeight="0.4318555" weight="0.17021276" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.16885246" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" weight="0.43114755" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40163934" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26929393" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" weight="0.25269645" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33497536" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32840723" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007599" side_tool="true" weight="0.27213115" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.2590164" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.25779969" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.2006079" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -458,8 +497,39 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.18237083" />
-      <window_info anchor="right" id="Structure" order="10" sideWeight="0.3822314" weight="0.22036473" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6177686" visible="true" weight="0.23365231" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5681445" side_tool="true" weight="0.35182372" />
+      <window_info id="Structure" order="6" sideWeight="0.4318555" weight="0.17021276" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26929393" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" weight="0.25287357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33497536" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32840723" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007599" side_tool="true" weight="0.27213115" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.25779969" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.2006079" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.18693009" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.18237083" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -470,23 +540,11 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
-          <line>294</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MethodInvocation.java</url>
-          <line>31</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/broker/region/Queue.java</url>
+          <line>1861</line>
           <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/BeforeAdvisor.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="81" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -495,415 +553,366 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="305" selection-start-line="305" selection-end-line="305" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="224" column="89" lean-forward="true" selection-start-line="224" selection-start-column="89" selection-end-line="224" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1376">
-          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/AopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyCreatorSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1328">
-          <caret line="104" column="41" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
-          <folding>
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2289#2290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyProcessorSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#2796#2797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/target/SingletonTargetSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6400">
-          <caret line="486" selection-start-line="486" selection-end-line="486" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/DefaultAopProxyFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/io/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="468" column="34" selection-start-line="468" selection-start-column="34" selection-end-line="468" selection-end-column="34" />
-          <folding>
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11028#11029#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="1005" column="25" lean-forward="true" selection-start-line="1005" selection-start-column="10" selection-end-line="1005" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/TestClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/io/IoClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="422">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/regex/Matcher.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/InputStreamReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="658" column="19" selection-start-line="658" selection-start-column="19" selection-end-line="658" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/regex/RegexClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.aopalliance.intercept.MethodInterceptor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.aopalliance.intercept.MethodInterceptor</OriginalElement>
-          <nodes>
-            <node x="" y="">org.aopalliance.intercept.MethodInterceptor</node>
-            <node x="" y="">org.aopalliance.intercept.Interceptor</node>
-            <node x="" y="">org.aopalliance.aop.Advice</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="79.5" y="95.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+        <state relative-caret-position="186">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="279">
+          <caret line="54" column="75" lean-forward="true" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/aopalliance/intercept/Joinpoint.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="177">
+          <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/aopalliance/intercept/Invocation.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="143">
+          <caret line="350" column="5" lean-forward="true" selection-start-line="350" selection-start-column="5" selection-end-line="350" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/aopalliance/intercept/MethodInvocation.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/support/JdbcAccessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="2">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/Advisor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="-526">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/proxy/Solution.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/core/PreparedStatementCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="439">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/proxy/MyInvocationHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/support/rowset/ResultSetWrappingSqlRowSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="194">
+          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/proxy/TestProxy.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/core/SqlRowSetResultSetExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/core/ResultSetExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapperResultSetExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1136">
+          <caret line="92" column="59" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE-sources.jar!/org/springframework/jdbc/core/PreparedStatementCreatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="397" column="57" lean-forward="true" selection-start-line="397" selection-start-column="57" selection-end-line="397" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/spring/ActiveMQConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/URI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1337" column="18" selection-start-line="1337" selection-start-column="18" selection-end-line="1337" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/util/URISupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/command/ActiveMQMessage.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/proxy/UserServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0.jar!/org/apache/activemq/command/ActiveMQTextMessage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="160">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar!/javax/jms/MessageProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar!/javax/jms/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="187" column="38" selection-start-line="187" selection-start-column="38" selection-end-line="187" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        <state relative-caret-position="352">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/aopalliance/intercept/MethodInterceptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar!/javax/jms/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state>
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/Orderable.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/command/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="6496">
+          <caret line="545" column="30" selection-start-line="545" selection-start-column="30" selection-end-line="545" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.7/cglib-3.2.7.jar!/net/sf/cglib/proxy/MethodInterceptor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQMessageProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="592">
+          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/BarService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQMessageProducerSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/AbstractAdvisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/proxy/cglib/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/proxy/cglib/TsmCglib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/proxy/cglib/TsmGuidDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2966" selection-start-line="2966" selection-end-line="2966" />
+        <state relative-caret-position="3520">
+          <caret line="240" column="19" selection-start-line="240" selection-start-column="19" selection-end-line="240" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MethodInterceptorImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MethodInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/BarServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/AfterAdvisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/Advisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/Proceed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MyAspectBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MyAspect.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/command/ActiveMQDestination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="123">
+          <caret line="275" column="31" selection-start-line="275" selection-start-column="31" selection-end-line="275" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MethodInvocation.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar!/javax/jms/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="181">
+          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/test/TestMyAspect.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/CustomDestination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/BeforeAdvisor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/command/ConsumerInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="194">
+          <caret line="210" column="18" selection-start-line="210" selection-start-column="18" selection-end-line="210" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/aop/MyLogAspect.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/command/ActiveMQBytesMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="848" column="16" selection-start-line="848" selection-start-column="16" selection-end-line="848" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQPrefetchPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1000" selection-start-line="1000" selection-end-line="1000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="522" selection-start-line="522" selection-end-line="522" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/command/ActiveMQTextMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/filter/PropertyExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/util/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/selector/SelectorParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQMessageConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/command/ActiveMQMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="611" column="18" lean-forward="true" selection-start-line="611" selection-start-column="18" selection-end-line="611" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar!/javax/jms/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/broker/region/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="1869" column="18" lean-forward="true" selection-start-line="1869" selection-start-column="18" selection-end-line="1869" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/command/ActiveMQQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.7.0/activemq-core-5.7.0-sources.jar!/org/apache/activemq/ActiveMQQueueSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/activemq/SendActivemqMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiehang/activemq/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
