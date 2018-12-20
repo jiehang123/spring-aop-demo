@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="connectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory">
+        <property name="targetConnectionFactory" ref="targetConnectionFactory"/>
+        <property name="sessionCacheSize" value="10"/>
+    </bean>
+
+    <bean id="targetConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://localhost:61616"/>
+        <property name="prefetchPolicy" ref="prefetchPolicy"/>
+    </bean>
+
+    <!-- 消费者预消费数量，如果一条一条的推送去获取消息，那效率就会太低了，所以一次性取一定数量的消息，再慢慢处理，默认是1000条 -->
+    <!-- 参考：https://blog.csdn.net/u012758088/article/details/78044187 -->
+    <bean id="prefetchPolicy" class="org.apache.activemq.ActiveMQPrefetchPolicy">
+        <property name="queuePrefetch" value="100" />
+    </bean>
+
+    <bean id="queueMessageListener" class="com.jiehang.activemq.MyMessageListener"/>
+
+    <bean id="queueListenerContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="destination" ref="queueDestination"/>
+        <property name="messageListener" ref="queueMessageListener"/>
+        <property name="concurrentConsumers" value="2"/>
+        <property name="messageSelector" value="kk >= 0"/>
+    </bean>
+
+    <bean id="queueDestination" class="org.apache.activemq.command.ActiveMQQueue">
+        <property name="physicalName" value="JIEH_TEST_ONE	"/>
+    </bean>
+</beans>
