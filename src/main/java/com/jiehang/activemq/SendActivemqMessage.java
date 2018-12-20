@@ -8,11 +8,11 @@ import javax.jms.*;
 public class SendActivemqMessage {
 
     public static void main(String[] args) throws JMSException {
-//        sendMessage();
-        startReceive(0, 20);
-        startReceive(20, 60);
-        startReceive(60, 95);
-        startReceive(95, 1001);
+        sendMessage();
+//        startReceive(0, 20);
+//        startReceive(20, 60);
+//        startReceive(60, 95);
+//        startReceive(95, 1001);
     }
 
     private static void startReceive(final int min, final int max) {
@@ -32,12 +32,13 @@ public class SendActivemqMessage {
     }
 
     private static void sendMessage() throws JMSException {
-        ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://45.32.21.110:61616");
+//        ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://45.32.21.110:61616");
+        ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://localhost:61616");
         Connection connection = factory.createConnection();
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         MessageProducer producer = session.createProducer(new ActiveMQQueue("JIEH_TEST_ONE"));
         Message message;
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
             message = session.createTextMessage("Test Message == " + i);
             message.setIntProperty("kk", i);
             producer.send(message);
@@ -47,16 +48,16 @@ public class SendActivemqMessage {
     }
 
     private static void receiveMessage(int min, int max) throws JMSException, InterruptedException {
-        ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://45.32.21.110:61616");
+        ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("tcp://localhost:61616");
         Connection connection = factory.createConnection();
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-        String messageSelector = "kk >= " + min + " and kk < " + max;
-        MessageConsumer consumer = session.createConsumer(new ActiveMQQueue("JIEH_TEST_ONE"), messageSelector);
+//        String messageSelector = "kk >= " + min + " and kk < " + max;
+        MessageConsumer consumer = session.createConsumer(new ActiveMQQueue("JIEH_TEST_ONE"));
         connection.start();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10000; i++) {
             TextMessage receiveMessage = (TextMessage) consumer.receive();
             System.out.println(Thread.currentThread().getName() + "<---->" + receiveMessage.getText());
-            Thread.sleep(500);
+            Thread.sleep(10);
         }
         session.close();
         connection.close();
